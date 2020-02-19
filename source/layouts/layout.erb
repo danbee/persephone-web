@@ -6,8 +6,12 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title %></title>
     <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7434852/6168012/css/fonts.css" />
+    <meta property="og:title" content="<%= current_page.data.title %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://persephone.fm" />
+    <meta property="og:image" content="https://persephone.fm/images/og.png" />
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
