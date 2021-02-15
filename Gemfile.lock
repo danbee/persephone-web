@@ -22,7 +22,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.7)
-    ffi (1.11.2)
+    ffi (1.14.2)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -83,7 +83,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    sassc (2.2.1)
+    sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
     temple (0.8.2)
@@ -105,4 +105,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   2.0.1
+   2.2.7
